@@ -48,3 +48,9 @@ jobs:
       - run: npm publish
         env:
           NODE_AUTH_TOKEN: ${{secrets.GITHUB_TOKEN}}
+      - name: Repository Dispatch
+        uses: peter-evans/repository-dispatch@v1
+        with:
+          token: ${{ secrets.ACTION_TOKEN }}
+          repository: MrBayene/sp-E2ECheckoutFlow
+          event-type: external-call
