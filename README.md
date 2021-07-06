@@ -1,2 +1,0 @@
-# Bauto
-Budget Automator

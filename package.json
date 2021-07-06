@@ -1,8 +1,8 @@
 {
   "name": "bauto",
   "version": "1.0.0",
-  "description": "Dependencies for BAUTO",
-  "main": "test.js",
+  "description": "Automated Budget programm",
+  "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -10,15 +10,13 @@
     "type": "git",
     "url": "git+https://github.com/MrBayene/Bauto.git"
   },
-  "author": "",
+  "keywords": [
+    "budget"
+  ],
+  "author": "Afroman",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/MrBayene/Bauto/issues"
   },
-  "homepage": "https://github.com/MrBayene/Bauto#readme",
-  "dependencies": {
-    "jquery-csv": "^1.0.11",
-    "mongodb": "^3.6.5",
-    "xmlhttprequest": "^1.8.0"
-  }
+  "homepage": "https://github.com/MrBayene/Bauto#readme"
 }
