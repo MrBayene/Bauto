@@ -18,5 +18,14 @@
   "bugs": {
     "url": "https://github.com/MrBayene/Bauto/issues"
   },
-  "homepage": "https://github.com/MrBayene/Bauto#readme"
+  "homepage": "https://github.com/MrBayene/Bauto#readme",
+  "dependencies": {
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2"
+  },
+  "devDependencies": {
+    "@types/react": "^17.0.13",
+    "@types/react-dom": "^17.0.8",
+    "typescript": "^4.3.5"
+  }
 }
